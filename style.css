@@ -1,0 +1,169 @@
+/* 
+
+Esta es una hoja de estilos, aqui tenemos que poner reglas.
+
+Reglas quemodifican mis cajitas (elementos de html)
+
+    regla => propiedad: valor;
+
+En CSS necesitamos asignarle la regla a alguien.
+
+elementoSeleccionado {
+    propiedad: valor;
+    propiedad2: valor;
+    propiedad3: valor;
+}
+
+*/
+
+
+
+
+
+/* 
+SELECTORES
+
+Existen tre maneras de seleccionar elementos:
+
+nombredeetiqueta: Es para todas las etiquetas que esten en mi página
+id
+clase {class}: se utiliza para darle estiilo a mas de un elemento, todos los que tengan la clase se van a ver afectados
+
+
+*/
+
+header {
+
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    height: 100vh;
+    width: 50vh;
+    justify-content: center;
+
+    background-image: url('assets/BTS.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    
+    filter: brightness(0.8); 
+}
+
+   
+
+
+    
+body {
+    background-color: rgb(233, 235, 238);
+}
+
+
+#letrasEslogan {
+    padding-left: 60px;
+    padding-right: 30px;
+    
+}
+
+
+
+
+.letra {
+    color: white;
+}
+
+.fondoHeader {
+    background-color: rgb(25, 93, 182);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* SELECTOR DE ETIQUETA*/
+
+img {
+    height: 200px;
+    padding: 26px;
+    margin: 20px;
+}
+
+/* .imgBTS {
+    height: 900px;
+} */
+
+/* SELECTOR DE CLASE */
+.mamifero {
+    border: 10px solid green;
+}
+
+
+/* SELECTOR DE ID */
+
+#subtitulo {
+    font-size: 34px;
+}
+
+#gatito {
+    border-radius: 50%;
+    /* display: block;  (ocupa toda la linea) */
+    display: block;
+}
+
+.info {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.barra {
+    margin-left: 60px;
+    margin-right: 54px;
+    width: 181vh;
+}
+
+.lista {
+    padding-left: 60px;
+}
+
+.subtitulo {
+    padding-left: 60px;
+    text-align:center;
+}
+
+ol {
+    padding-left: 80px;
+}
+
+ol li a {
+    color: black;
+}
+
+.imgBTSindividual {
+    height: 40vh;
+}
+
+.infoIndividual {
+    text-align: justify;
+}
+
+#iconos a {
+    padding-top: 16px;
+}
+
+#icono-contacto {
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+    /* arriba derecha abajo izq 
+    padding: 0.5rem 1rem 0.5rem 1rem; */
+    padding: 0.8rem 1rem;
+    margin: 1rem;
+    border-radius: 75%;
+}
+
+#tecnolochicas {
+    text-align: center;
+    padding-bottom: 25px;
+}
