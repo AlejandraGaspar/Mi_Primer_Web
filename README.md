@@ -6,7 +6,7 @@ Primer sitio web desarrollado con HTML para el bootcamp de technolochicas PRO, e
 
 ### Link del proyecto
 
-[Proyecto desplegado]()
+[Proyecto desplegado](https://ornate-cocada-99366c.netlify.app/)
 
 ### Capturas del proyecto
 
@@ -20,5 +20,11 @@ Primer sitio web desarrollado con HTML para el bootcamp de technolochicas PRO, e
 ![Captura Links](assets/8.png)
 ![Captura Links](assets/9.png)
 ![Captura Links](assets/10.png)
+
+### Tecnologías
+* HTML
+* CSS
+* Javascript
+* Bootstrap 5
 
 ###### Créditos: Alejandra Gaspar para el bootcamp de Technolochicas PRO
